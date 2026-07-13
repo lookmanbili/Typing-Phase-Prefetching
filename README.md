@@ -11,6 +11,6 @@ Mixture of Experts (MoE) architectures are incredibly powerful, but their vast p
 
 **Typing-Phase Prefetching** enhances response duration by utilizing active user typing time.: **typing speed**. 
 
-While a user is slowly composing a query, the system actively analyzes their keystrokes in the background. It predicts which expert layers will be needed, then uses asynchronous background transfer queues to stream those specific weights from cheap System RAM (CPU) to the graphics card's active memory workspace *before* the user ever clicks "Send."
+While a user is slowly composing a query, the system actively analyzes their keystrokes in the background. It predicts which expert layers will be needed, then uses asynchronous background transfer queues to stream those specific weights from System RAM (CPU) to the graphics card's active memory workspace *before* the user ever clicks "Send."
 
 ---
