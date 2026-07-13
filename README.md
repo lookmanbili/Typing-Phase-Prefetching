@@ -1,11 +1,11 @@
 
-Typing-Phase Prefetching
+## Typing-Phase Prefetching
 
 > **A pipeline that takes advantage of user typing time to stream MoE expert weights from system memory to the GPU and get instant answers.**
 
 ---
 
-## 💡 The Concept
+# 💡 The Concept
 
 Mixture of Experts (MoE) architectures are incredibly powerful, but their vast parameter footprints are notoriously difficult to host on local, budget-friendly setups. If you run them entirely in dedicated graphics memory (VRAM), you quickly run out of space. If you load them dynamically on demand when the user hits "Send," the transfer latency across the system bus (PCIe) chokes your generation speeds.
 
