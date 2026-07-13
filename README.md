@@ -1,7 +1,7 @@
 
 # Typing-Phase Prefetching for MoE Large Language Models
 
-> **A pipeline that takes advantage of user typing time to stream MoE expert weights from system memory to the GPU and get instant answers.**
+> **A pipeline that takes advantage of user typing time to stream MoE expert weights from system memory to the GPU and get faster answers.**
 
 ---
 
