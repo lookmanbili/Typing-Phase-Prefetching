@@ -7,7 +7,7 @@
 
 # 💡 The Concept
 
-Mixture of Experts (MoE) architectures are incredibly powerful, but their vast parameter footprints are notoriously difficult to host on local, budget-friendly setups. If you run them entirely in dedicated graphics memory (VRAM), you quickly run out of space. If you load them dynamically on demand when the user hits "Send," the transfer latency across the system bus (PCIe) chokes your generation speeds.
+Mixture of Experts (MoE) architectures are incredibly powerful, but their massive parameter counts are notoriously difficult to host on local, budget-friendly setups. If you run them entirely in dedicated graphics memory (VRAM), you quickly run out of space. If you load them dynamically on demand when the user hits "Send," the transfer latency across the system bus (PCIe) chokes your generation speeds.
 
 "***Typing-Phase Prefetching leverages the typing time to pre-analyze the query and compute weights before the request is actually sent.***"
 
