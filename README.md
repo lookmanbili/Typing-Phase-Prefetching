@@ -11,6 +11,6 @@ Mixture of Experts (MoE) architectures are incredibly powerful, but their massiv
 
 "***Typing-Phase Prefetching leverages the typing time to pre-analyze the query and compute weights before the request is actually sent.***"
 
-While a user is slowly composing a query, the system actively analyzes their keystrokes in the background. It predicts which expert layers will be needed, then uses asynchronous background transfer queues to stream those specific weights from System RAM (CPU) to the GPU VRAM *before* the user ever clicks "Send."
+While a user is slowly composing a query, the system actively analyzes their keystrokes in the background. It predicts which expert layers will be needed, then uses asynchronous background transfer queues to stream those specific weights from System RAM (CPU) to the GPU VRAM *before* the user ever clicks "Send." We also propose a chunked, semantic-aware analysis for tokens.
 
 ---
